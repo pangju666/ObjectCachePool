@@ -1,0 +1,32 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "HIREDIS_INCLUDE_DIR",
+          "value": "E:/hiredis-1.0.0/out/install/x64-Debug/include",
+          "type": "PATH"
+        },
+        {
+          "name": "HIREDIS_LIBRARY",
+          "value": "E:/hiredis-1.0.0/out/install/x64-Debug/lib/hiredis.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "MSGPACK_INCLUDE_DIR",
+          "value": "E:/msgpack-c-cpp-3.3.0/out/install/x64-Debug/include",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
